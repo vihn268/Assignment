@@ -4,8 +4,12 @@
 }
 
 .fix-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #f2f2f2;
-    height: 40px;
+    z-index: 1;
 }
 
 .fix-header ul{
@@ -22,6 +26,7 @@
 }
 
 .banner img{
+    margin-top: 20px;
     width: 100%;
 }
 
