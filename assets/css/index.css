@@ -44,10 +44,9 @@
 .nav{
     background-color: #ED6D21;
     position: relative;
-    min-height: 100px;
+    min-height: 70px;
     width: 100%;
     margin: 0;
-    text-align: center;
 }
 
 .func{
@@ -57,14 +56,15 @@
     min-height: 50px;
     list-style: none;
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     /* left: 40px; */
     background-color: #ED6D21;
 }
 
-.nav > a{
+.nav > .func{
     /* display: inline-block;
     width: 40px;   */
+    left: 40px;
 }
 
 .func ul{
@@ -74,7 +74,7 @@
 
 .nav img{
     position: absolute;
-    left: 0;
+    z-index: 1;
     height: 40px;
     background-color: white;
 }
@@ -270,7 +270,7 @@
 
 #btnGroupDrop1{
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     border: 1px;
     color: white;
 }
@@ -282,3 +282,25 @@
     color: white;
 }
 
+.text-header li:hover {
+    opacity: 0.6;
+}
+
+.row a:hover,
+.sidebar a:hover{
+    opacity: 0.8;
+    color: #0000ee;
+}
+
+img:hover{
+    scale: 1.1;
+    opacity: 1.0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media (max-width: 767px) {
+
+} 
