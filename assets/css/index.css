@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fix-header{
+    background-color: #f2f2f2;
+    height: 40px;
+}
+
+.fix-header ul{
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    column-gap: 10px;
+}
+
+.serapator{
+    border: 1px solid black;
+    font-size: 0;
+    display: inline-block;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.header-new li a,
+.fix-header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.search_btn button img{
+    height: 11px;
+}
+
+.txtsearch{
+    text-indent: 5px;
+    color: #ccc;
+}
+
+.nav{
+    background-color: #ED6D21;
+    position: relative;
+    min-height: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.func{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    min-height: 50px;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    /* left: 40px; */
+    background-color: #ED6D21;
+}
+
+.nav > a{
+    /* display: inline-block;
+    width: 40px;   */
+}
+
+.func ul{
+    list-style: none;
+    width: 100%;
+}
+
+.nav img{
+    position: absolute;
+    left: 0;
+    height: 40px;
+    background-color: white;
+}
+
+.function > a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 6px 15px
+}
+
+.item-right-date{
+    color: #ED6D21;
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+#content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.rowthetime{
+    flex: 100%;
+}
+
+#slideshows {
+    flex: 70%;
+    min-inline-size: 700px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+#news{
+    flex: 30%;
+}
+
+.item{
+    display: none;
+    text-align: center;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active{
+    background-color: #717171;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.header-new .actives{
+    max-width: 800px;
+    margin: auto;
+    display: inline-block;
+    width: 43%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+    
+.margin-form{
+    margin: 10px;
+}
+
+
+
+.tab a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#tab2default{
+    display: none;
+}
+
+.navi{
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    flex: 8;
+}
+
+#new-form {
+    width: 49%;
+    margin-bottom: 100px;
+}
+
+#new-form .head{
+    background-color: #ededed;
+    border-bottom: 2px solid red;
+    padding: 5px 0;
+}
+
+.head a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ED6D21;
+    padding: 10px;
+}
+
+.content-new-form{
+    display: flex;
+    
+}
+
+.content-new-form a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.img-new{
+    flex: 7;
+}
+
+.sidebar-new{
+    flex:3;
+}
+
+.img-new img{
+    width: 100%;
+}
+
+.img-new a{
+    color: blue;
+    font-size: large;
+}
+
+.sidebar{
+    position: relative;
+    flex: 2;
+}
+
+.event-new a{
+    /* display: block; */
+    text-decoration: none;
+    color: black;
+}
+
+.event-new{
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.event-new img{
+    width: 50%;
+}
+
+.event-new .paragram{
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+    left: 50%;
+}
+
+.connect{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.quantity-connect{
+    color: red;
+    font-weight: bold;
+}
+
+#btnGroupDrop1{
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    color: white;
+}
+
+.link-web a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    color: white;
+}
+
