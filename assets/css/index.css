@@ -279,6 +279,11 @@
     color: white;
 }
 
+#btnGroupDrop1 button{
+    width: 100%;
+    height: 25px;
+}
+
 .link-web a{
     text-decoration: none;
     display: block;
@@ -287,6 +292,10 @@
 }
 
 .text-header li:hover {
+    opacity: 0.6;
+}
+
+a:hover{
     opacity: 0.6;
 }
 
